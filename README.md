@@ -19,7 +19,7 @@
 </p>
 <h3 align="center">
   <a href="https://www.arxiv.org/pdf/2509.11301">Paper</a> |
-  <a href="#">Poster</a> |
+  <a href="https://drive.google.com/file/d/1yk7iULUx5EL7vfFWI9705vqForoFUA4d/view?usp=sharing">Poster</a> |
   <a href="#citation">Citation</a>
 </h3>
 
