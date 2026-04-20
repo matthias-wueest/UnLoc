@@ -1,0 +1,26 @@
+name: unloc
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  # Deep learning
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - lightning
+
+  # Scientific stack
+  - numpy
+  - scipy
+  - matplotlib
+
+  # Computer vision
+  - opencv
+
+  # Config / utilities
+  - pyyaml
+  - joblib
+  - tqdm

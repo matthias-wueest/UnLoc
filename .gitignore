@@ -1,0 +1,19 @@
+# Data & checkpoints
+data/
+logs/
+results/
+tb_logs/
+ 
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+ 
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+ 
+# Local env
+*.lock
+.env
