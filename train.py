@@ -122,10 +122,10 @@ def main():
     print(f"Val set size:   {len(val_dataset)}")
 
     train_dataloader = DataLoader(
-        train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=8,
+        train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=0,
     )
     val_dataloader = DataLoader(
-        val_dataset, batch_size=args.batch_size, shuffle=False, num_workers=8,
+        val_dataset, batch_size=args.batch_size, shuffle=False, num_workers=0,
     )
 
     # --- Model ---
